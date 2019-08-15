@@ -1,0 +1,69 @@
+/* pages/scoreLine/scoreLine.wxss */
+/* 上部按钮区 */
+.alert{
+  width: 98%;
+}
+.btnYear{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250rpx;
+  margin-top: 20rpx;
+}
+.btnTop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.btnBot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+  button{
+  background-color: #31C5B9;
+  width: 200rpx;
+  height: 80rpx;
+  margin-left: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 结果显示区 */
+.table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50rpx;
+}
+.tr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.td{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220rpx;
+  height: 80rpx;
+  border: 1px solid #0099BC;
+  color: gray;
+}
+.title{
+  background-color: #90C9D6;
+  color: white;
+}
+.p{
+  color: gray;
+  font-size: 1.3em;
+}

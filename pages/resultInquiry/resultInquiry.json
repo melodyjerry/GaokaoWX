@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "高考成绩查询",
+  "usingComponents": {
+    "i-alert": "../dist/alert/index"
+  }
+}

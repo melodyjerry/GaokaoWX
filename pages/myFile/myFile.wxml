@@ -1,0 +1,42 @@
+<!--pages/myFile.wxml-->
+<view class='container'> 
+<!-- grandfather -->
+  <view class='headImg'>
+  <!-- touxiang -->
+    <image src="{{userInfo.avatarUrl}}" class='img'></image>
+    <text>{{userInfo.nickName}}</text>
+  </view>
+
+  <view class='main'>
+  <!-- list -->
+    <view class='List'>
+      <image src='../img/log.png' class='listImg'></image>
+      <i-cell title="我的性格分析记录" is-link url="/pages/MBTI/finally/finally" i-class="list"></i-cell>
+    </view>
+
+    <view class='List'>
+      <image src='../img/recommend.png' class='listImg'></image>
+      <i-cell title="我的志愿推荐" is-link url="/pages/result/result" i-class="list"></i-cell>
+    </view>
+
+    <view class='List'>
+      <image src='../img/share.png' class='listImg'></image>
+      <i-cell title="分享给朋友" is-link bind:click="onShareAppMessage" i-class="list"></i-cell>
+    </view>
+
+    <view class='List'>
+      <image src='../img/money.png' class='listImg'></image>
+      <i-cell title="赞赏我们" is-link url="/pages/encourage/encourage" i-class="list"></i-cell>
+    </view>
+
+    <view class='List'>
+      <image src='../img/about.png' class='listImg'></image>
+      <i-cell title="关于我们" is-link url="/pages/aboutUs/aboutUs" i-class="list"></i-cell>
+    </view>
+
+    <view class='List'>
+      <image src='../img/return.png' class='listImg'></image>
+      <i-cell title="问题反馈" is-link url="/pages/queston/question" i-class="list"></i-cell>
+    </view>
+  </view>
+</view>

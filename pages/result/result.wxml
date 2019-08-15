@@ -1,0 +1,38 @@
+<!--pages/result/result.wxml-->
+<view class='container'>
+<!-- 爷爷级别容器 -->
+<view class='notice'>
+  温馨提醒：本系统提供的志愿推荐结果仅供参考，最终选择由考生自己决定，与本系统无关！！
+</view>
+
+ <view class='outsideCard'  wx:for-items="{{low}}" wx:key="name">
+  <navigator class='school' url="../../pages/logs/logs" >
+
+        <view class="top">
+
+          <view class='schoolName'>
+            <image src='{{item.logourl}}' class='image'></image>
+            <text class='text'>{{item.name}}</text>
+
+            
+          </view>
+
+          <view class='data'>
+            录取几率：{{item.extra}}
+          </view>
+            
+        </view> 
+
+          <view class='content'><text class='word'>推荐专业：{{item.content}}</text></view>
+          <view class='footer'><text class='words'>单击卡片查看详情</text></view>
+
+  </navigator>
+
+</view>
+
+  <view class='return'>
+    <button class='Return' catchtap="returnMain"  hover-class="touchBto">返回首页</button>
+  <!-- 返回首页 -->
+  </view>
+
+</view>

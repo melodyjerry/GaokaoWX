@@ -1,0 +1,28 @@
+/* pages/MBTI/test/test.wxss */
+.testTitle{
+    width: 90%;
+    height: 150rpx;
+}
+.testChoose{
+    width: 90%;
+    height: 150rpx;
+}
+.Choose{
+    height: 150rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.touchBto{
+    background-color: #0F7971;
+  }
+.testBtn{
+    width: 90%;
+    height: 100rpx;
+    margin-top: 50rpx;
+}
+.btnSub{
+    width: 90%;
+    background-color: #31C5B9;
+    color: white;
+}

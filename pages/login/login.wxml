@@ -1,0 +1,25 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+
+  <view class="userinfo">
+    <view class="img">
+      <image src="../img/grade.png" class="icon" />
+    </view>
+
+    <view class="title">
+      <view class="underline">
+        申请获取以下权限
+      </view>
+
+      <text>获得你的公开信息(昵称，头像等)</text>
+    </view>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="button"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+
+
+  </view>
+
+</view>

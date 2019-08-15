@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "历年分数线查询",
+  "usingComponents": {
+      "i-alert": "../dist/alert/index"
+  }
+}

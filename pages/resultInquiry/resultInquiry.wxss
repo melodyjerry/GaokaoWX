@@ -1,0 +1,28 @@
+/* pages/resultInquiry/resultInquiry.wxss */
+.container{
+  width: 100%;
+}
+.alert{
+  width: 100%;
+}
+.input{
+  width: 90%;
+  height: 400rpx;
+}
+.Input{
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 20rpx;
+  font-size: 35rpx;
+}
+.btn{
+  width: 100%;
+}
+.btn button{
+  width: 90%;
+  background-color: #31C5B9;
+  color: white;
+}

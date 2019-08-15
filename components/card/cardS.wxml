@@ -1,0 +1,26 @@
+<!--components/card/card.wxml-->
+<!-- 学校查询组件 -->
+<view class='outsideCard'  wx:for-items="{{hig}}" wx:key="name">
+  <navigator class='school' url="../../pages/logs/logs" >
+
+        <view class="top">
+
+          <view class='schoolName'>
+            <image src='../../pages/img/test.jpg' class='image'></image>
+            <text class='text'>{{item.name}}</text>
+
+            
+          </view>
+
+          <view class='data'>
+            录取几率：{{item.extra}}
+          </view>
+            
+        </view> 
+
+          <view class='content'><text class='word'>推荐专业：{{item.content}}</text></view>
+          <view class='footer'><text class='words'>单击卡片查看详情</text></view>
+
+  </navigator>
+
+</view>

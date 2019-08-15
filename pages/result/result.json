@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "志愿推荐结果",
+  "usingComponents": {
+    "i-notice-bar": "../dist/notice-bar/index"
+  }
+}

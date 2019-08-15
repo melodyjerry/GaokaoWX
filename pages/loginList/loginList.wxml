@@ -1,0 +1,36 @@
+<!--录取通知书查询-->
+<view class='container'>
+<view class='alert'>
+  <i-alert type="warning" show-icon desc  i-class="alertStu">
+      请考生注意：
+      <view slot="desc">按照下方提示输入信息查询录取通知书</view>
+    </i-alert>
+</view>
+<view class='input'>
+<!-- 考生信息输入 -->
+    <view class='Input'>
+      姓名:
+      <input value="{{ valueName }}"  placeholder="请输入姓名" bindinput="inputChange"  class='radioInput'/>
+    </view>
+
+    <view class='Input'>
+      考号:
+      <input value="{{ valueNo }}"  placeholder="请输入对应考号"  bindinput="inputChange"  class='radioInput'/>
+    </view>
+
+    <view class='Input'>
+      身份证号:
+      <input value="{{ valueID }}"  placeholder="请输入身份证号"  bindinput="inputChange"  class='radioInput'/>
+    </view>
+
+     <view class='Input'>
+      快递单号:
+      <input value="{{ valueKD }}"  placeholder="请输入快递单号"  bindinput="inputChange"  class='radioInput'/>
+    </view>
+</view>
+
+<view class='btn'>
+<!-- 信息提交按钮 -->
+  <button catchtap='alert'>点击查询</button>
+</view>
+</view>

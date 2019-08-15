@@ -1,0 +1,42 @@
+    <!--pages/MBTI/start/start.wxml-->
+<view class="container">
+    <view class="introduce">
+        <view class="title">
+                MBTI简介
+        </view>
+
+        <view class="main">
+            <text class="p" selectable="false" space="false" decode="false">
+                MBTI的全名是Myers-Briggs Type Indicator。它是一种迫选型、自我报告式的性格评估理论模型，用以衡量和描述人们在获取信息、作出决策、对待生活等方面的心理活动规律和性格类型。
+            </text>
+
+             <text class="p" selectable="false" space="false" decode="false">
+               MBTI采用量表与自评相结合的方式揭示性格类型。目前最新的量表是1998年修订完成的量表M。它包含93个问题，每题设2个备选答案，要求受测者在完全解除压力的状态下选择自己最自然的做法或者反应。
+            </text>
+
+            <text class="p" selectable="false" space="false" decode="false">
+               MBTI把性格分析4个维度，每个维度上的包含相互对立的2种偏好,分别是外向、内向、感觉、直觉、思考、情感、判断、感知。
+            </text>
+
+        </view>
+    </view>
+
+    <view class="msg">
+        <view class="title">
+                测试需知
+        </view>
+        
+        <view class="main">
+            <text class="p" selectable="false" space="false" decode="false">
+              题量：93
+              所需时间：约18分钟
+              注意事项：请根据第一感觉直接选出答案
+              温馨提示：本测试结果仅供参考
+            </text>
+        </view>
+    </view>
+
+    <view class="btnStart">
+        <button class="start" catch:tap="move">点击开始测试</button>
+    </view>
+</view>

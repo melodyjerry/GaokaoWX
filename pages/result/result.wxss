@@ -1,0 +1,93 @@
+/* pages/result/result.wxss */
+.notice{
+  width: 100%;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 17rpx;
+  text-align: center;
+  background-color: #FF9900;
+  color: white;
+  border-radius: 20rpx;
+}
+.return{
+  width: 100%;
+  height: 120rpx;
+}
+.Return{
+  width: 80%;
+  height: 100rpx;
+  background-color: #31C5B9;
+  color: white;
+  font-size: 40rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  margin-top: 40rpx;
+  margin-left: 10%;
+}
+.touchBto{
+  background-color: #0F7971;
+}
+.outsideCard{
+  width: 100%;
+  height: 270rpx;
+  margin-top: 25rpx;
+}
+.school{
+  width: 98%;
+  margin-left: 1%;
+  height: 270rpx;
+  border: 1px solid #fff;
+  background-color: #E8EAED;
+  border-radius: 30rpx;
+}
+.top{
+  display: flex;
+  width: 100%;
+  height: 150rpx;
+  border-bottom: 1rpx solid #fff;
+}
+.schoolName{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  height: 150rpx;
+  font-size: 35rpx;
+}
+.text{
+  margin-left: 3%;
+}
+.image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.data{
+  width: 40%;
+  height: 150rpx;
+  font-size: 28rpx;
+  color: gray;
+  line-height: 135rpx;
+}
+.content{
+  width: 100%;
+  height: 55rpx;
+  border-bottom: 1rpx solid #fff;
+  display: flex;
+  align-items: center;
+}
+.word{
+  font-size: 30rpx;
+  margin-left: 5%;
+}
+.words{
+  color: gray;
+  font-size: 25rpx;
+  margin-left: 5%;
+}
+.footer{
+  width: 90%;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+}

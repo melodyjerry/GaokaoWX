@@ -1,0 +1,28 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+  <view class="container">
+    <view class="introduce">
+        <view class="title">
+                关于团队
+        </view>
+
+        <view class="main">
+            <text class="p" selectable="false" space="false" decode="false">
+                {{team}}
+            </text>
+
+        </view>
+    </view>
+
+    <view class="msg">
+        <view class="title">
+               关于系统
+        </view>
+        
+        <view class="main">
+            <text class="p" selectable="false" space="false" decode="false">
+              {{appMessage}}
+            </text>
+        </view>
+    </view>
+
+  </view>

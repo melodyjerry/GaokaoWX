@@ -1,0 +1,24 @@
+<!--pages/encourage/encourage.wxml-->
+<view class="container">
+    <view class="introduce">
+        <view class="title">
+                支持我们
+        </view>
+
+        <view class="main">
+           <image src="../img/code.png"  class="image" />
+        </view>
+    </view>
+
+    <view class="msg">
+        <view class="title">
+                感谢支持
+        </view>
+        
+        <view class="main">
+            <text class="p" selectable="false" space="false" decode="false">
+              开发不易，若您觉得对您有所帮助，愿意帮助我们继续开发，感谢您的慷慨解囊
+            </text>
+        </view>
+    </view>
+</view>

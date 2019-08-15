@@ -1,0 +1,27 @@
+<!--pages/schoolRank/schoolRank.wxml-->
+<view class="container">
+  <view class="introduce">
+    <view class="title">
+      排名说明
+    </view>
+
+    <view class="main">
+      <text class="p" selectable="false" space="true" decode="false">
+              团队通过网络资源的整合，整理出了如下中国2019年的大学排名表，该表仅供考生填报志愿时参考使用，不具有任何其他效应。
+            </text>
+    </view>
+  </view>
+
+  <view class="msg">
+    <view class="title">
+      2019中国高校排名
+    </view>
+    <view class="main">
+      <view class="rank" wx:for="{{school}}" wx:key="{{item.rank}}">
+        <view class="ranking">{{item.rank}}</view>
+        <!-- <image class="icon" src="{{item.img}}" /> -->
+        <view class="name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>

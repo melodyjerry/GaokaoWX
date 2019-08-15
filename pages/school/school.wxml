@@ -1,0 +1,73 @@
+<!--pages/school/school.wxml-->
+<view class="container">
+<view class='type'>
+   <view class='schoolT' catch:tap="schoolFind" style="background-color:{{schoolColor}}">
+        <text>院校查询</text>
+    </view> 
+    <view class='majorT' catch:tap="major" style="background-color:{{majorColor}}">
+        <text>专业查询</text>
+    </view> 
+</view>
+	<!-- 院校查询页面 -->
+	<view wx:if="{{schoolIf === 1}}" class="outside">
+	<!-- 查询类别 -->
+		<view class="search-flex {{scrolltop>200?'tophide':''}}">
+			<view class="search-bar">
+				<input type="text" maxlength="12" placeholder="请输入关键字查询" bindinput="inputSearch" value="{{input}}"></input>
+				<button class="search-btn" bindtap="submitSearch" wx:if="{{showsearch}}">搜索</button>
+			</view>
+			<button class="search-extra-btn" catch:tap="zero">清空信息</button>
+		</view>
+	<!-- 搜索框 -->
+		<view class="school">
+			<view class="component" wx:for="{{school}}" wx:key="{{item.name}}">
+				<view class="img">
+					<image src="{{item.img}}" />
+				</view>
+				<view class="msg">
+					<view class="name">
+						{{item.name}}
+					</view>
+					<view class="Type">
+						{{item.type}}
+					</view>
+					<view class="city">
+						{{item.city}}
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<!-- 专业查询页面 -->
+	<view wx:if="{{majorIf === 1}}" class="outside">
+	<!-- 查询类别 -->
+		<view class="search-flex {{scrolltop>200?'tophide':''}}">
+			<view class="search-bar">
+				<input type="text" maxlength="12" placeholder="请输入关键字查询" bindinput="inputSearch1" value="{{input1}}"></input>
+				<button class="search-btn" bindtap="submitSearch1" wx:if="{{showsearch}}">搜索</button>
+			</view>
+			<button class="search-extra-btn" catch:tap="zero">清空信息</button>
+		</view>
+	<!-- 搜索框 -->
+		<view class="major">
+			<view class="components" wx:for="{{major}}" wx:key="{{item.name}}">
+
+				<view class="majorMsg">
+						<view class="msgName" >
+							专业名：{{item.name}}
+						</view>
+						<view class="msgType">
+							专业大类：:{{item.type}}
+						</view>
+				</view>
+
+				<view class="msgIntroduce">
+					专业介绍：{{item.introduce}}
+				</view>
+				
+			</view>
+		</view>
+		
+	</view>
+</view>

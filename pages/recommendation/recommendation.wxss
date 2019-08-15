@@ -1,0 +1,63 @@
+/* pages/recommendation/recommendation.wxss */
+.alert{
+  width: 100%;
+  height: 210rpx;
+}
+.alertStu{
+  font-size: 20rpx;
+  border-radius: 30rpx;
+}
+.form{
+  width: 100%;
+  height: 780rpx;
+}
+.p{
+  font-size: 50rpx;
+  color: gray;
+  margin-left: 5%;
+}
+.Radio{
+  display: flex;
+  width: 90%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  line-height: 50px;
+  border-bottom: 1px solid #BDBDBE;
+  border-top: 1px solid #BDBDBE;
+  color: gray;
+}
+.radioInput{
+  font-size: 30rpx;
+  width: 60%;
+  height: 80rpx;
+  margin-left: 5%;
+  margin-top: 10rpx;
+}
+.radio{
+  margin-left: 15rpx;
+}
+.radio-group{
+  display: flex;
+  padding-top: -30rpx;
+}
+.subBut{
+  width: 300rpx;
+}
+.submit{
+  width: 90%;
+  margin-left: 4%;
+  height: 100rpx;
+}
+.subBut{
+  width: 100%;
+  height: 100rpx;
+  background-color: #31C5B9;
+  color: white;
+  font-size: 40rpx;
+  text-align: center;
+  border-radius: 50rpx;
+}
+.touchBto{
+  background-color: #0F7971;
+}

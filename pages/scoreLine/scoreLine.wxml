@@ -1,0 +1,189 @@
+<!--pages/scoreLine/scoreLine.wxml-->
+<view class='container'>
+<view class='alert'>
+  <i-alert type="warning" show-icon desc  i-class="alertStu">
+      请考生注意：
+      <view slot="desc">点击年份查看当年分数线</view>
+    </i-alert>
+</view>
+
+  <view class='btnYear'>
+    <!-- 这里是按钮选择区 -->
+    <view class='btnTop'>
+      <button catchtap='changeFour'  size="small">2014</button>
+      <button catchtap='changeFive'  size="small">2015</button>
+      <button catchtap='changeSix'  size="small">2016</button>
+    </view>
+
+    <view class='btnBot'>
+      <button catchtap='changeSeven'  size="small">2017</button>
+      <button catchtap='changeEight'  size="small">2018</button>
+      <button catchtap='changeNine'  size="small">2019</button>
+    </view>
+     
+  </view>
+
+  <view class='main'>
+    <!-- 这里是查询结果显示区域 -->
+    <!-- 2019年的结果 -->
+      <view class='table' wx:if="{{year==2019}}">
+      <text class='p'>2019年四川省控线</text>
+        <view class='tr'>
+          <view class='td title'>批次</view>
+          <view class='td title'>文科</view>
+          <view class='td title'>理科</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科一批</view>
+          <view class='td'>暂无</view>
+          <view class='td'>暂无</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科二批</view>
+          <view class='td'>暂无</view>
+          <view class='td'>暂无</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>专科</view>
+          <view class='td'>暂无</view>
+          <view class='td'>暂无</view>
+        </view>
+      </view>
+
+       <!-- 2018年的结果 -->
+      <view class='table' wx:elif="{{year==2018}}">
+      <text class='p'>2018年四川省控线</text>
+        <view class='tr'>
+          <view class='td title'>批次</view>
+          <view class='td title'>文科</view>
+          <view class='td title'>理科</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科一批</view>
+          <view class='td'>553</view>
+          <view class='td'>546</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科二批</view>
+          <view class='td'>492</view>
+          <view class='td'>458</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>专科</view>
+          <view class='td'>190</view>
+          <view class='td'>180</view>
+        </view>
+      </view>
+
+       <!-- 2017年的结果 -->
+      <view class='table' wx:elif="{{year==2017}}">
+      <text class='p'>2017年四川省控线</text>
+        <view class='tr'>
+          <view class='td title'>批次</view>
+          <view class='td title'>文科</view>
+          <view class='td title'>理科</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科一批</view>
+          <view class='td'>537</view>
+          <view class='td'>511</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科二批</view>
+          <view class='td'>470</view>
+          <view class='td'>436</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>专科</view>
+          <view class='td'>190</view>
+          <view class='td'>180</view>
+        </view>
+      </view>
+
+       <!-- 2016年的结果 -->
+      <view class='table' wx:elif="{{year==2016}}">
+      <text class='p'>2016年四川省控线</text>
+        <view class='tr'>
+          <view class='td title'>批次</view>
+          <view class='td title'>文科</view>
+          <view class='td title'>理科</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科一批</view>
+          <view class='td'>540</view>
+          <view class='td'>532</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科二批</view>
+          <view class='td'>480</view>
+          <view class='td'>453</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>专科一批</view>
+          <view class='td'>445</view>
+          <view class='td'>390</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>专科二批</view>
+          <view class='td'>190</view>
+          <view class='td'>180</view>
+        </view>
+      </view>
+
+       <!-- 2015年的结果 -->
+      <view class='table' wx:elif="{{year==2015}}">
+      <text class='p'>2015年四川省控线</text>
+        <view class='tr'>
+          <view class='td title'>批次</view>
+          <view class='td title'>文科</view>
+          <view class='td title'>理科</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科一批</view>
+          <view class='td'>543</view>
+          <view class='td'>528</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科二批</view>
+          <view class='td'>473</view>
+          <view class='td'>445</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>专科</view>
+          <view class='td'>220</view>
+          <view class='td'>180</view>
+        </view>
+      </view>
+
+       <!-- 2014年的结果 -->
+      <view class='table' wx:if="{{year==2014}}">
+      <text class='p'>2014年四川省控线</text>
+        <view class='tr'>
+          <view class='td title'>批次</view>
+          <view class='td title'>文科</view>
+          <view class='td title'>理科</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科一批</view>
+          <view class='td'>551</view>
+          <view class='td'>540</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科二批</view>
+          <view class='td'>500</view>
+          <view class='td'>475</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>本科三批</view>
+          <view class='td'>476</view>
+          <view class='td'>446</view>
+        </view>
+        <view class='tr'>
+          <view class='td'>专科</view>
+          <view class='td'>200</view>
+          <view class='td'>180</view>
+        </view>
+      </view>
+  </view>
+
+</view>

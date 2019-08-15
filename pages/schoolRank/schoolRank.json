@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "学校排名",
+  "usingComponents": {},
+  "enablePullDownRefresh": true, 
+  "onReachBottomDistance": 0 
+  
+}

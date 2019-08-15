@@ -1,0 +1,66 @@
+/* components/card/cardS.wxss */
+/* components/card/card.wxss */
+.outsideCard{
+  width: 100%;
+  height: 270rpx;
+  margin-top: 25rpx;
+}
+.school{
+  width: 98%;
+  margin-left: 1%;
+  height: 270rpx;
+  border: 1px solid #fff;
+  background-color: #E8EAED;
+  border-radius: 30rpx;
+}
+.top{
+  display: flex;
+  width: 100%;
+  height: 150rpx;
+  border-bottom: 1rpx solid #fff;
+}
+.schoolName{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 85%;
+  height: 150rpx;
+  font-size: 35rpx;
+}
+.text{
+  margin-left: 3%;
+}
+.image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+.data{
+  width: 40%;
+  height: 150rpx;
+  font-size: 28rpx;
+  color: gray;
+  line-height: 135rpx;
+}
+.content{
+  width: 100%;
+  height: 55rpx;
+  border-bottom: 1rpx solid #fff;
+  display: flex;
+  align-items: center;
+}
+.word{
+  font-size: 30rpx;
+  margin-left: 5%;
+}
+.words{
+  color: gray;
+  font-size: 25rpx;
+  margin-left: 5%;
+}
+.footer{
+  width: 90%;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+}

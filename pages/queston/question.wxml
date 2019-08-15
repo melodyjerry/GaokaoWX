@@ -1,0 +1,26 @@
+<!--pages/queston/question.wxml-->
+<view class="container">
+    <view class="introduce">
+        <view class="title">
+               请输入您的联系方式
+        </view>
+
+        <view class="main">
+            <input placeholder='请输入电话号码'></input>
+        </view>
+    </view>
+
+    <view class="msg">
+        <view class="title">
+                请输入您的意见
+        </view>
+        
+        <view class="main">
+            <textarea placeholder='在此输入您的意见，感谢您对我们的建议'></textarea>
+        </view>
+    </view>
+
+    <view class="btnStart">
+        <button class="start" bindtap='submit'>提交</button>
+    </view>
+</view>

@@ -1,0 +1,1060 @@
+<!--pages/MBTI/test/test.wxml-->
+<view class="container">
+    <view class="testTitle">
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 1}}">
+           {{num}}.当你要外出一整天，你会:
+        </text>
+
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 2}}">
+           {{num}}.你认为自己是一个:
+        </text>
+        
+         <text selectable="false" space="false" decode="false" wx:if="{{num === 3}}">
+           {{num}}.假如你是一位老师，你会选教:
+        </text>
+
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 4}}">
+           {{num}}.你通常:
+        </text>
+
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 5}}">
+           {{num}}.一般来说，你和哪些人比较合得来:
+        </text>
+
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 6}}">
+           {{num}}.你是否经常让:
+        </text>
+
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 7}}">
+           {{num}}.处理许多事情上，你会喜欢:
+        </text>
+
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 8}}">
+           {{num}}.你是否:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 9}}">
+           {{num}}.按照程序表做事:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 10}}">
+           {{num}}.当你有一份特别的任务，你会喜欢:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 11}}">
+           {{num}}.在大多数情况下，你会选择:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 12}}">
+           {{num}}.大多数人会说你是一个:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 13}}">
+           {{num}}.你宁愿被人认为是一个:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 14}}">
+           {{num}}.在一大群人当中，通常是:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 15}}">
+           {{num}}.你会跟哪些人做朋友:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 16}}">
+           {{num}}.你倾向:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 17}}">
+           {{num}}.你比较喜欢:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 18}}">
+           {{num}}.你喜欢花很多的时间:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 19}}">
+           {{num}}.与很多人一起会:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 20}}">
+           {{num}}.你比较喜欢:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 21}}">
+           {{num}}.计划一个旅程时，你较喜欢:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 22}}">
+           {{num}}.在社交聚会中，你:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 23}}">
+           {{num}}.哪些人会更吸引你:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 24}}">
+           {{num}}.你通常:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 25}}">
+           {{num}}.在日常工作中，你会:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 26}}">
+           {{num}}.你认为别人一般:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 27}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 28}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 29}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 30}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 31}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 32}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 33}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 34}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 35}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 36}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 37}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 38}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 39}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 40}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 41}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 42}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 43}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 44}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 45}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 46}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 47}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 48}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 49}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 50}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 51}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 52}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 53}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 54}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 55}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 56}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 57}}">
+          {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 58}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 59}}">
+           {{num}}.当你要在一个星期内完成一个大项目，你在开始的时候会:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 60}}">
+           {{num}}.在社交场合中，你经常会感到:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 61}}">
+           {{num}}.要做许多人也做的事，你比较喜欢:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 62}}">
+           {{num}}.你刚认识的朋友能否说出你的兴趣:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 63}}">
+           {{num}}.你通常较喜欢的科目是:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 64}}">
+           {{num}}.哪个是较高的赞誉，或称许为:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 65}}">
+           {{num}}.你认为按照程序表做事:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 66}}">
+           {{num}}.和一群人在一起，你通常会选:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 67}}">
+           {{num}}.在社交聚会上，你会:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 68}}">
+           {{num}}.把周末期间要完成的事列成清单，这个主意会:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 69}}">
+           {{num}}.哪个是较高的赞誉，或称许为:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 70}}">
+           {{num}}.你通常喜欢:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 71}}">
+           {{num}}.总的说来，要做一个大型作业时，你会选:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 72}}">
+           {{num}}.你能否滔滔不绝地与人聊天:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 73}}">
+           {{num}}.你会:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 74}}">
+           {{num}}.为乐趣而阅读时，你会:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 75}}">
+           {{num}}.你宁愿替哪一类上司（或者老师）工作:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 76}}">
+           {{num}}.你做事多数是:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 77}}">
+           {{num}}.你是否:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 78}}">
+           {{num}}.要作决定时，你认为比较重要的是:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 79}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 80}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 81}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 82}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 83}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 84}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 85}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 86}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 87}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 88}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 89}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 90}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 91}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 92}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+        <text selectable="false" space="false" decode="false" wx:if="{{num === 93}}">
+           {{num}}.在下列每一对词语中，哪一个词语更合你心意:
+        </text>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 1}}">
+        <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 2}}" >
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items2}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 3}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items3}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 4}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items4}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 5}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items5}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 6}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items6}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 7}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items7}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 8}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items8}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 9}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items9}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 10}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items10}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 11}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items11}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 12}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items12}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 13}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items13}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 14}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items14}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 15}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 16}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items16}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 17}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items17}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 18}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items18}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 19}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items19}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+
+    <view class="testChoose" wx:if="{{num === 20}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items20}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 21}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items21}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 22}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items22}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 23}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items23}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 24}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items24}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 25}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items25}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 26}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items26}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 27}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items27}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 28}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items28}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 29}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items29}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 30}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items30}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 31}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items31}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 32}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items32}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 33}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items33}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 34}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items34}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 35}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items35}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 36}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items36}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 37}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items37}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 38}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items38}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 39}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items39}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 40}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items40}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 41}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items41}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 42}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items42}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 43}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items43}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 44}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items44}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 45}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items45}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 46}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items46}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 47}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items47}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 48}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items48}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 49}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items49}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 50}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items50}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 51}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items51}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 52}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items52}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 53}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items53}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 54}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items54}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 55}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items55}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 56}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items56}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 57}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items57}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 58}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items58}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 59}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items59}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 60}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items60}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 61}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items61}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 62}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items62}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 63}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items63}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 64}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items64}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 65}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items65}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 66}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items66}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 67}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items67}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 68}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items68}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 69}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items69}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 70}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items70}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 71}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items71}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 72}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items72}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 73}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items73}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 74}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items74}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 75}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items75}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 76}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items76}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 77}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items77}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 78}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items78}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 79}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items79}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 80}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items80}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 81}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items81}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 82}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items82}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 83}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items83}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 84}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items84}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 85}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items85}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 86}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items86}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 87}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items87}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 88}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items88}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 89}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items89}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 90}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items90}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 91}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items91}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 92}}">
+          <radio-group bindchange="radioChange" class="Choose">
+                <label class="radio" wx:for="{{items92}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view>
+    <view class="testChoose" wx:if="{{num === 93}}">
+          <radio-group bindchange="radioChang" class="Choose">
+                <label class="radio" wx:for="{{items93}}" wx:key="{{item.name}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}" />
+                        {{item.value}}
+                 </label>
+        </radio-group>
+    </view> 
+
+
+    <view class="testBtn" wx:if="{{num === 93}}">
+        <button class="btnSub" catch:tap="final">查看结果</button>
+    </view>
+</view>

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/myFile/myFile",
+    "pages/school/school",
+    "pages/recommendation/recommendation",
+    "pages/result/result",
+    "components/card/cardS",
+    "pages/resultInquiry/resultInquiry",
+    "pages/loginList/loginList",
+    "pages/scoreLine/scoreLine",
+    "pages/queston/question",
+    "pages/aboutUs/aboutUs",
+    "pages/MBTI/start/start",
+    "pages/MBTI/finally/finally",
+    "pages/MBTI/test/test",
+    "pages/encourage/encourage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31C5B9",
+    "navigationBarTitleText": "高考志愿帮",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "#31C5B9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "pages/img/homepage.png",
+        "selectedIconPath": "pages/img/homepageT.png"
+      },
+      {
+        "pagePath": "pages/school/school",
+        "text": "院校及专业查询",
+        "iconPath": "pages/img/school.png",
+        "selectedIconPath": "pages/img/schoolT.png"
+      },
+      {
+        "pagePath": "pages/myFile/myFile",
+        "text": "我的",
+        "iconPath": "pages/img/user.png",
+        "selectedIconPath": "pages/img/userT.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
